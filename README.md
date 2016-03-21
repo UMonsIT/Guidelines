@@ -16,3 +16,4 @@ Les lignes de conduites à adopter lors de la contribution à un dépot de cette
 ## Licences
 Une licence de type open-source doit être utilisée. De préférence GPLv3.
 
+Veillez à ce que les synthèses/notes que vous ajoutez vous appartiennent ou que vous disposez d'un autorisation de l'auteur.
