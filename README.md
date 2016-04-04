@@ -11,7 +11,10 @@ Les lignes de conduites à adopter lors de la contribution à un dépot de cette
 - Chaque dépot correspondant à un cours contient:
     - Un dossier résumés dont les sous-dossiers sont les différents résumés disponibles.
     - Un dossier notes dont les sous-dossiers sont les différentes notes disponibles.
+    - Un dossier syllabus qui contient le syllabus du cours.**
 - Chaque note ou résumé est compilable en utilisant un Makefile.
+
+**Si le syllabus est rédigé par le professeur, il est nécessaire de demander aux professeurs s'ils sont d'accord de mettre en ligne leurs sources tex. Si non, le syllabus peut aussi être rédigés par un étudiant.
 
 ## Licences
 Une licence de type open-source doit être utilisée. De préférence GPLv3.
@@ -21,3 +24,5 @@ Veillez à ce que les synthèses/notes que vous ajoutez vous appartiennent ou qu
 ## Todo
 - Mettre en place un système d'intégration continue serait intéressant. [Travis](https://travis-ci.com) permet d'exécuter la compilation des fichiers tex à chaque push et de créer une release automatiquement avec le pdf généré en ajoutant un message (par exemple celui du commit). Ce système permettrait d'éviter d'alourdir les dépots git pour ceux qui ne veulent que contribuer et de n'avoir qu'à télécharger le dernier pdf généré, sans devoir cloner le dépot, pour ceux qui ne veulent que le pdf.
 La structure et les conventions sont alors essentielles pour qu'on puisse facilement installer l'intégration continue dans chaque dépot.
+
+- Bien définir la différence entre notes, résumés et syllabus
