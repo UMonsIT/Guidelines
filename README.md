@@ -17,3 +17,7 @@ Les lignes de conduites à adopter lors de la contribution à un dépot de cette
 Une licence de type open-source doit être utilisée. De préférence GPLv3.
 
 Veillez à ce que les synthèses/notes que vous ajoutez vous appartiennent ou que vous disposez d'un autorisation de l'auteur.
+
+## Todo
+- Mettre en place un système d'intégration continue serait intéressant. [Travis](https://travis-ci.com) permet d'exécuter la compilation des fichiers tex à chaque push et de créer une release automatiquement avec le pdf généré en ajoutant un message (par exemple celui du commit). Ce système permettrait d'éviter d'alourdir les dépots git pour ceux qui ne veulent que contribuer et de n'avoir qu'à télécharger le dernier pdf généré, sans devoir cloner le dépot, pour ceux qui ne veulent que le pdf.
+La structure et les conventions sont alors essentielles pour qu'on puisse facilement installer l'intégration continue dans chaque dépot.
